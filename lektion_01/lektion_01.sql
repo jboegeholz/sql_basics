@@ -1,4 +1,4 @@
-CREATE TABLE operatives (id INTEGER, name TEXT, birthday DATE);
+CREATE TABLE operatives (id INTEGER, name TEXT, birthday DATE, PRIMARY KEY(id));
 INSERT INTO operatives (id, name, birthday) VALUES (1, "Michael Arthur Long", "1949-01-09");
 INSERT INTO operatives (id, name, birthday) VALUES (2, "Devon Miles", "1942-07-12");
 INSERT INTO operatives (id, name, birthday) VALUES (3, "Dr. Bonnie Barstow", "1954-11-24");

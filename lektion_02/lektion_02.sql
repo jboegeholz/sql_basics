@@ -2,4 +2,4 @@ CREATE TABLE missions (id INTEGER, code_name TEXT, operative_id INTEGER, total_c
 INSERT INTO missions VALUES (1, "Knight of the Phoenix", 1, 6246382.43);
 INSERT INTO missions VALUES (2, "Deadly Maneuvers", 1, 4568893.53);
 
-SELECT * FROM missions LEFT JOIN operatives ON missions.operative_id = operatives.op_id;
+SELECT * FROM missions LEFT JOIN operatives ON missions.operative_id = operatives.id;
