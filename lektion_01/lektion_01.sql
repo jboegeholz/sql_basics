@@ -11,4 +11,3 @@ UPDATE operatives SET occupation = "Technician" WHERE id = 3;
 UPDATE operatives SET occupation = "Truck Driver" WHERE id = 4;
 DELETE FROM operatives WHERE id = 3;
 INSERT INTO operatives (id, name, birthday, occupation) VALUES (5, "April Curtis", "1952-05-04", "Senior Design Officer");
-SELECT * FROM operatives;
